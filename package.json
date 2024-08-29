@@ -26,7 +26,10 @@
 		"ts-node": "10.9.2",
 		"typescript": "5.5.4"
 	},
-	"activationEvents": ["onStartupFinished"],
+	"activationEvents": [
+		"onStartupFinished",
+		"workspaceContains:**/biome.json"
+	],
 	"bugs": {
 		"url": "https://github.com/biomejs/biome-vscode/issues"
 	},
